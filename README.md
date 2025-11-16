@@ -1,9 +1,9 @@
 🚀 Crypto MCP Server
 
 A FastAPI-powered microservice providing real-time crypto prices, historical market data, and latest crypto news through clean, developer-friendly REST endpoints.
----
-🔥 Overview
 
+🔥 Overview
+---
 The Crypto MCP Server is a lightweight API service designed to fetch and serve cryptocurrency data such as:
 
 ✅ Live Price (via Binance API)
@@ -13,8 +13,9 @@ The Crypto MCP Server is a lightweight API service designed to fetch and serve c
 ✅ Crypto News (via CryptoCompare API)
 
 Useful for AI agents, dashboards, trading bots, backend integrations, and MCP-based workflows.
-----
+
 🧩 Features
+---
 📌 1. Real-Time Market Price
 
 Fetches the latest USDT pair price for any symbol
@@ -38,8 +39,9 @@ Pulls top news from CryptoCompare
 Clean & minimal response objects
 
 Useful for daily market insights
----
+
 ⚙️ Tech Stack
+---
 Layer	Technology
 Server	FastAPI
 HTTP Client	requests
@@ -52,8 +54,9 @@ crypto-mcp-server/
 ├── requirements.txt        # Dependencies
 ├── README.md               # Documentation
 └── .env (optional)         # Env variables if needed
----
+
 🚀 Getting Started
+---
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/crypto-mcp-server.git
 cd crypto-mcp-server
