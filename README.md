@@ -88,3 +88,42 @@ Once the server is running, interactive API docs are available at:
 Swagger UI: /docs
 
 ReDoc: /redoc
+
+🛠️ Development Notes
+---
+Binance API supports only SYMBOLUSDT pairs
+
+CoinGecko API rate-limits aggressively; caching recommended
+
+CryptoCompare may occasionally deliver slower payloads
+
+📈 Planned Improvements
+---
+Add support for Open, High, Low, Close candlestick data
+
+Add 24h change, volume, and market cap endpoints
+
+Redis caching to improve speed
+
+Docker deployment
+
+Full MCP tool definition JSON
+
+🤝 Contributing
+---
+Contributions are welcome!
+
+Fork the repository
+
+Create a feature branch
+
+Submit a PR
+
+🛡️ License
+---
+This project is released under the MIT License.
+
+👤 Author
+---
+Prachi Aggarwal
+🌐 GitHub: prachiagg06
