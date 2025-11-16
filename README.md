@@ -80,9 +80,9 @@ Your API will now be available at:
 ---
 
 👉 http://127.0.0.1:8000
----
-📚 API Documentation
 
+📚 API Documentation
+---
 Once the server is running, interactive API docs are available at:
 
 Swagger UI: /docs
