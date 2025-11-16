@@ -1,5 +1,5 @@
 🚀 Crypto MCP Server
-
+---
 A FastAPI-powered microservice providing real-time crypto prices, historical market data, and latest crypto news through clean, developer-friendly REST endpoints.
 
 🔥 Overview
@@ -43,10 +43,15 @@ Useful for daily market insights
 ⚙️ Tech Stack
 ---
 Layer	Technology
+
 Server	FastAPI
+
 HTTP Client	requests
+
 APIs Used	Binance, CoinGecko, CryptoCompare
+
 Language	Python 3.10+
+---
 📁 Project Structure
 crypto-mcp-server/
 │
@@ -58,17 +63,22 @@ crypto-mcp-server/
 🚀 Getting Started
 ---
 1️⃣ Clone the Repository
+---
 git clone https://github.com/your-username/crypto-mcp-server.git
+
 cd crypto-mcp-server
----
+
 2️⃣ Install Dependencies
+---
 pip install -r requirements.txt
----
+
 3️⃣ Run the Server
-uvicorn server:app --reload
 ---
+uvicorn server:app --reload
 
 Your API will now be available at:
+---
+
 👉 http://127.0.0.1:8000
 ---
 📚 API Documentation
